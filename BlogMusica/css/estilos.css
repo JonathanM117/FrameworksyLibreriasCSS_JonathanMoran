@@ -1,0 +1,73 @@
+body
+{
+  background-color: black;
+}
+.encr
+{
+  height: 100px;
+}
+.encc
+{
+  height: 100%;
+  background-color: #4db6ac;
+}
+.imglogo
+{
+  max-height: 90%;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.lg
+{
+  max-width: 50px;
+  margin-top: 50px;
+  background-color: #4db6ac;
+  border-color: black;
+  border-width: 2px;
+}
+.nv
+{
+  background-color: #e0e0e0;
+}
+.contenedor
+{
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.cont
+{
+  margin: 10px;
+}
+.contl
+{
+  margin-top: 5px;
+}
+.art
+{
+  width: 90%;
+}
+.busc
+{
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+@media (max-width:800px)
+{
+  .encr
+  {
+    height: 80px;
+  }
+  .lg
+  {
+    max-width: 35px;
+    margin-top: 40px
+  }
+}
+@media  (max-width:600px)
+{
+  .buscoculta
+  {
+    display: none;
+  }
+}
